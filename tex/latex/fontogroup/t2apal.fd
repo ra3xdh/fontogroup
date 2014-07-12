@@ -1,0 +1,24 @@
+%%
+%% This is file `t2apal.fd'
+%% [ Mysl font family ]
+%%
+\ProvidesFile{t2apal.fd}
+
+\DeclareFontFamily{T2A}{pal}{}
+
+\DeclareFontShape{T2A}{pal}{m}{n}{<->  pa}{}
+\DeclareFontShape{T2A}{pal}{m}{it}{<-> pai}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{T2A}{pal}{m}{sl}{<-> pai}{}
+
+\DeclareFontShape{T2A}{pal}{bx}{n}{<->  pab}{}
+\DeclareFontShape{T2A}{pal}{bx}{it}{<-> pabi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{pal}{bx}{sl}{<-> pabi}{}
+
+\DeclareFontShape{T2A}{pal}{b}{n}{<->  pa}{}
+\DeclareFontShape{T2A}{pal}{b}{it}{<-> pai}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{pal}{b}{sl}{<-> pabi}{}
+
+\endinput

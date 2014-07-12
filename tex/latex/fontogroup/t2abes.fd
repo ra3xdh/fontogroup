@@ -1,0 +1,22 @@
+%%
+%% This is file `t2abes.fd'
+%% [ BetinaScript font family ]
+%%
+\ProvidesFile{t2abes.fd}
+
+\DeclareFontFamily{T2A}{bes}{}
+
+\DeclareFontShape{T2A}{bes}{m}{n}{<-> besc}{}
+
+\DeclareFontShape{T2A}{bes}{m}{it}{<-> ssub * bes/m/n}{}
+\DeclareFontShape{T2A}{bes}{m}{sl}{<-> ssub * bes/m/n}{}
+
+\DeclareFontShape{T2A}{bes}{bx}{n}{<-> bescb}{} 
+
+\DeclareFontShape{T2A}{bes}{bx}{it}{<-> ssub * bes/bx/n}{}
+\DeclareFontShape{T2A}{bes}{bx}{sl}{<-> ssub * bes/bx/n}{}
+\DeclareFontShape{T2A}{bes}{b}{n}{<->  ssub * bes/bx/n}{} 
+\DeclareFontShape{T2A}{bes}{b}{it}{<-> ssub * bes/bx/n}{} 
+\DeclareFontShape{T2A}{bes}{b}{sl}{<-> ssub * bes/bx/n}{} 
+
+\endinput

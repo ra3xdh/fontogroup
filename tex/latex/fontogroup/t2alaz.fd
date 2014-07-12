@@ -1,0 +1,24 @@
+%%
+%% This is file `t2alaz.fd'
+%% [ Lazurski font family ]
+%%
+\ProvidesFile{t2alaz.fd}
+
+\DeclareFontFamily{T2A}{laz}{}
+
+\DeclareFontShape{T2A}{laz}{m}{n}{<->  la}{}
+\DeclareFontShape{T2A}{laz}{m}{it}{<-> lai}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{T2A}{laz}{m}{sl}{<-> lai}{}
+
+\DeclareFontShape{T2A}{laz}{bx}{n}{<->  lab}{}
+\DeclareFontShape{T2A}{laz}{bx}{it}{<-> labi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{laz}{bx}{sl}{<-> labi}{}
+
+\DeclareFontShape{T2A}{laz}{b}{n}{<->  lab}{}
+\DeclareFontShape{T2A}{laz}{b}{it}{<-> labi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{laz}{b}{sl}{<-> labi}{}
+
+\endinput

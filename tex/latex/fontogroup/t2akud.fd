@@ -1,0 +1,24 @@
+%%
+%% This is file `t2akud.fd'
+%% [ Kudrjashov font family ]
+%%
+\ProvidesFile{t2akud.fd}
+
+\DeclareFontFamily{T2A}{kud}{}
+
+\DeclareFontShape{T2A}{kud}{m}{n}{<->  ku}{}
+\DeclareFontShape{T2A}{kud}{m}{it}{<-> kui}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{T2A}{kud}{m}{sl}{<-> kui}{}
+
+\DeclareFontShape{T2A}{kud}{bx}{n}{<->  kub}{}
+\DeclareFontShape{T2A}{kud}{bx}{it}{<-> kubi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{kud}{bx}{sl}{<-> kubi}{}
+
+\DeclareFontShape{T2A}{kud}{b}{n}{<->  kub}{}
+\DeclareFontShape{T2A}{kud}{b}{it}{<-> kubi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{kud}{b}{sl}{<-> kubi}{}
+
+\endinput

@@ -1,0 +1,24 @@
+%%
+%% This is file `OT1pal.fd'
+%% [ Mysl font family ]
+%%
+\ProvidesFile{OT1pal.fd}
+
+\DeclareFontFamily{OT1}{pal}{}
+
+\DeclareFontShape{OT1}{pal}{m}{n}{<->  pa}{}
+\DeclareFontShape{OT1}{pal}{m}{it}{<-> pai}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{OT1}{pal}{m}{sl}{<-> pai}{}
+
+\DeclareFontShape{OT1}{pal}{bx}{n}{<->  pab}{}
+\DeclareFontShape{OT1}{pal}{bx}{it}{<-> pabi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{pal}{bx}{sl}{<-> pabi}{}
+
+\DeclareFontShape{OT1}{pal}{b}{n}{<->  pa}{}
+\DeclareFontShape{OT1}{pal}{b}{it}{<-> pai}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{pal}{b}{sl}{<-> pabi}{}
+
+\endinput

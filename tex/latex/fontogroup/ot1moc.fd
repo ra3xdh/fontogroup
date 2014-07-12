@@ -1,0 +1,24 @@
+%%
+%% This is file `OT1moc.fd'
+%% [ MonoCondensed font family ]
+%%
+\ProvidesFile{OT1moc.fd}
+
+\DeclareFontFamily{OT1}{moc}{}
+
+\DeclareFontShape{OT1}{moc}{m}{n}{<->  moc}{}
+\DeclareFontShape{OT1}{moc}{m}{it}{<-> moci}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{OT1}{moc}{m}{sl}{<-> moci}{}
+
+\DeclareFontShape{OT1}{moc}{bx}{n}{<->  mocb}{}
+\DeclareFontShape{OT1}{moc}{bx}{it}{<-> mocbi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{moc}{bx}{sl}{<-> mocbi}{}
+
+\DeclareFontShape{OT1}{moc}{b}{n}{<->  mocb}{}
+\DeclareFontShape{OT1}{moc}{b}{it}{<-> mocbi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{moc}{b}{sl}{<-> mocbi}{}
+
+\endinput

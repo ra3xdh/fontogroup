@@ -1,0 +1,20 @@
+%%
+%% This is file `t2aods.fd'
+%% [ OdessaScript font family ]
+%%
+\ProvidesFile{t2aods.fd}
+
+\DeclareFontFamily{T2A}{ods}{}
+
+\DeclareFontShape{T2A}{ods}{m}{n}{<-> ods}{}
+
+\DeclareFontShape{T2A}{ods}{m}{it}{<-> ssub * ods/m/n}{}
+\DeclareFontShape{T2A}{ods}{m}{sl}{<-> ssub * ods/m/n}{}
+\DeclareFontShape{T2A}{ods}{bx}{n}{<-> ssub * ods/m/n}{} 
+\DeclareFontShape{T2A}{ods}{bx}{it}{<-> ssub * ods/m/n}{}
+\DeclareFontShape{T2A}{ods}{bx}{sl}{<-> ssub * ods/m/n}{}
+\DeclareFontShape{T2A}{ods}{b}{n}{<->  ssub * ods/m/n}{} 
+\DeclareFontShape{T2A}{ods}{b}{it}{<-> ssub * ods/m/n}{} 
+\DeclareFontShape{T2A}{ods}{b}{sl}{<-> ssub * ods/m/n}{} 
+
+\endinput

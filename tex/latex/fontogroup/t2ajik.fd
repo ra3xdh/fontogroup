@@ -1,0 +1,20 @@
+%%
+%% This is file `t2ajik.fd'
+%% [ Jikharev font family ]
+%%
+\ProvidesFile{t2ajik.fd}
+
+\DeclareFontFamily{T2A}{jik}{}
+
+\DeclareFontShape{T2A}{jik}{m}{n}{<-> ji}{}
+
+\DeclareFontShape{T2A}{jik}{m}{it}{<-> ssub * jik/m/n}{}
+\DeclareFontShape{T2A}{jik}{m}{sl}{<-> ssub * jik/m/n}{}
+\DeclareFontShape{T2A}{jik}{bx}{n}{<-> ssub * jik/m/n}{} 
+\DeclareFontShape{T2A}{jik}{bx}{it}{<-> ssub * jik/m/n}{}
+\DeclareFontShape{T2A}{jik}{bx}{sl}{<-> ssub * jik/m/n}{}
+\DeclareFontShape{T2A}{jik}{b}{n}{<->  ssub * jik/m/n}{} 
+\DeclareFontShape{T2A}{jik}{b}{it}{<-> ssub * jik/m/n}{} 
+\DeclareFontShape{T2A}{jik}{b}{sl}{<-> ssub * jik/m/n}{} 
+
+\endinput

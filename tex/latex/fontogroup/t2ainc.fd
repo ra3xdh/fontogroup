@@ -1,0 +1,22 @@
+%%
+%% This is file `t2ainc.fd'
+%% [ Inform font family ]
+%%
+\ProvidesFile{t2ainc.fd}
+
+\DeclareFontFamily{T2A}{inc}{}
+
+\DeclareFontShape{T2A}{inc}{m}{n}{<-> inc}{}
+
+\DeclareFontShape{T2A}{inc}{m}{it}{<-> ssub * inc/m/n}{}
+\DeclareFontShape{T2A}{inc}{m}{sl}{<-> ssub * inc/m/n}{}
+
+\DeclareFontShape{T2A}{inc}{bx}{n}{<-> incb}{} 
+
+\DeclareFontShape{T2A}{inc}{bx}{it}{<-> ssub * inc/bx/n}{}
+\DeclareFontShape{T2A}{inc}{bx}{sl}{<-> ssub * inc/bx/n}{}
+\DeclareFontShape{T2A}{inc}{b}{n}{<->  ssub * inc/bx/n}{} 
+\DeclareFontShape{T2A}{inc}{b}{it}{<-> ssub * inc/bx/n}{} 
+\DeclareFontShape{T2A}{inc}{b}{sl}{<-> ssub * inc/bx/n}{} 
+
+\endinput

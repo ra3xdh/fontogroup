@@ -1,0 +1,24 @@
+%%
+%% This is file `t2aopt.fd'
+%% [ Optimal font family ]
+%%
+\ProvidesFile{t2aopt.fd}
+
+\DeclareFontFamily{T2A}{opt}{}
+
+\DeclareFontShape{T2A}{opt}{m}{n}{<->  op}{}
+\DeclareFontShape{T2A}{opt}{m}{it}{<-> opi}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{T2A}{opt}{m}{sl}{<-> opi}{}
+
+\DeclareFontShape{T2A}{opt}{bx}{n}{<->  opb}{}
+\DeclareFontShape{T2A}{opt}{bx}{it}{<-> opbi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{opt}{bx}{sl}{<-> opbi}{}
+
+\DeclareFontShape{T2A}{opt}{b}{n}{<->  opb}{}
+\DeclareFontShape{T2A}{opt}{b}{it}{<-> opbi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{opt}{b}{sl}{<-> opbi}{}
+
+\endinput

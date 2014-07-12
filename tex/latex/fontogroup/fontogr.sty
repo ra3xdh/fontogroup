@@ -1,0 +1,190 @@
+\ProvidesPackage{fontogr}%
+    [2001/08/22 v0.93 Fontogroup Cyrillic Type1 Bundle]
+
+%%
+%% Define fonts 
+%%
+
+%% Roman
+
+\def\bandefault{ban} %% Bannikovskaya
+\def\basdefault{bas} %% Baskerville
+\def\cmndefault{cmn} %% CommonNew
+\def\elzdefault{elz} %% Elizabeth
+\def\kuddefault{kud} %% Kudrjashov
+\def\lazdefault{laz} %% Lazurski
+\def\paldefault{pal} %% Mysl
+\def\scbdefault{scb} %% SchoolBook
+
+%% Sans
+
+\def\futdefault{fut} %% Futuris
+\def\mocdefault{moc} %% MonoCondensed
+\def\optdefault{opt} %% Optimal
+\def\pradefault{pra} %% Pragmatica
+
+%% Decor
+
+\def\besdefault{bes} %% BetinaScript
+\def\decdefault{dec} %% Decor
+\def\incdefault{inc} %% Inform
+\def\jikdefault{jik} %% Jikharev
+\def\odsdefault{ods} %% OdessaScript
+\def\pardefault{par} %% Parsek
+
+%% `Style'
+
+\def\cygdefault{cyg} %% CyrillicGoth
+\def\herdefault{her} %% Hermes
+\def\rtydefault{rty} %% RType
+\def\tradefault{tra} %% Traktir
+
+%% Symbol
+
+\def\plndefault{pln} %% Plants
+
+%%
+%% Define font families:
+%%
+
+\DeclareRobustCommand\banfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\bandefault\selectfont}
+
+\DeclareRobustCommand\basfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\basdefault\selectfont}
+
+\DeclareRobustCommand\cmnfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\cmndefault\selectfont}
+
+\DeclareRobustCommand\elzfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\elzdefault\selectfont}
+
+\DeclareRobustCommand\kudfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\kuddefault\selectfont}
+
+\DeclareRobustCommand\lazfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\lazdefault\selectfont}
+
+\DeclareRobustCommand\palfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\paldefault\selectfont}
+
+\DeclareRobustCommand\scbfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\scbdefault\selectfont}
+
+% =========================================
+
+\DeclareRobustCommand\futfamily
+        {\not@math@alphabet\sffamily\mathsf
+         \fontfamily\futdefault\selectfont}
+
+\DeclareRobustCommand\mocfamily
+        {\not@math@alphabet\ttfamily\mathtt
+         \fontfamily\mocdefault\selectfont}
+
+\DeclareRobustCommand\optfamily
+        {\not@math@alphabet\sffamily\mathsf
+         \fontfamily\optdefault\selectfont}
+
+\DeclareRobustCommand\prafamily
+        {\not@math@alphabet\sffamily\mathsf
+         \fontfamily\pradefault\selectfont}
+
+% =========================================
+
+\DeclareRobustCommand\besfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\besdefault\selectfont}
+
+\DeclareRobustCommand\decfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\decdefault\selectfont}
+
+\DeclareRobustCommand\incfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\incdefault\selectfont}
+
+\DeclareRobustCommand\jikfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\jikdefault\selectfont}
+
+\DeclareRobustCommand\odsfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\odsdefault\selectfont}
+
+\DeclareRobustCommand\parfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\pardefault\selectfont}
+
+% =========================================
+
+\DeclareRobustCommand\cygfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\cygdefault\selectfont}
+
+\DeclareRobustCommand\herfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\herdefault\selectfont}
+
+\DeclareRobustCommand\rtyfamily
+        {\not@math@alphabet\ttfamily\mathtt
+         \fontfamily\rtydefault\selectfont}
+
+\DeclareRobustCommand\trafamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \fontfamily\tradefault\selectfont}
+	 
+% =========================================	 
+
+\DeclareRobustCommand\plnfamily
+	{\fontencoding{U}\fontseries{m}\fontshape{n}
+         \fontfamily\plndefault\selectfont}
+
+%%
+%% Define text font commands:
+%%
+
+\DeclareTextFontCommand{\textban}{\banfamily}
+\DeclareTextFontCommand{\textbas}{\basfamily}
+\DeclareTextFontCommand{\textcmn}{\cmnfamily}
+\DeclareTextFontCommand{\textelz}{\elzfamily}
+\DeclareTextFontCommand{\textkud}{\kudfamily}
+\DeclareTextFontCommand{\textlaz}{\lazfamily}
+\DeclareTextFontCommand{\textpal}{\palfamily}
+\DeclareTextFontCommand{\textscb}{\scbfamily}
+
+% ==========================================
+
+\DeclareTextFontCommand{\textfut}{\futfamily}
+\DeclareTextFontCommand{\textmoc}{\mocfamily}
+\DeclareTextFontCommand{\textopt}{\optfamily}
+\DeclareTextFontCommand{\textpra}{\prafamily}
+
+% ==========================================
+
+\DeclareTextFontCommand{\textbes}{\besfamily}
+\DeclareTextFontCommand{\textdec}{\decfamily}
+\DeclareTextFontCommand{\textinc}{\incfamily}
+\DeclareTextFontCommand{\textjik}{\jikfamily}
+\DeclareTextFontCommand{\textods}{\odsfamily}
+\DeclareTextFontCommand{\textpar}{\parfamily}
+
+% ==========================================
+
+\DeclareTextFontCommand{\textcyg}{\cygfamily}
+\DeclareTextFontCommand{\texther}{\herfamily}
+\DeclareTextFontCommand{\textrty}{\rtyfamily}
+\DeclareTextFontCommand{\texttra}{\trafamily}
+
+% ==========================================
+
+\DeclareTextFontCommand{\textpln}{\plnfamily}
+
+\endinput

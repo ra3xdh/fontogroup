@@ -1,0 +1,24 @@
+%%
+%% This is file `t2abas.fd'
+%% [ Baskerville font family ]
+%%
+\ProvidesFile{t2abas.fd}
+
+\DeclareFontFamily{T2A}{bas}{}
+
+\DeclareFontShape{T2A}{bas}{m}{n}{<->  bas}{}
+\DeclareFontShape{T2A}{bas}{m}{it}{<-> basi}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{T2A}{bas}{m}{sl}{<-> basi}{}
+
+\DeclareFontShape{T2A}{bas}{bx}{n}{<->  basb}{}
+\DeclareFontShape{T2A}{bas}{bx}{it}{<-> basbi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{bas}{bx}{sl}{<-> basbi}{}
+
+\DeclareFontShape{T2A}{bas}{b}{n}{<->  basb}{}
+\DeclareFontShape{T2A}{bas}{b}{it}{<-> basbi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{bas}{b}{sl}{<-> basbi}{}
+
+\endinput

@@ -1,0 +1,24 @@
+%%
+%% This is file `ot1scb.fd'
+%% [ SchoolBook font family ]
+%%
+\ProvidesFile{ot1scb.fd}
+
+\DeclareFontFamily{OT1}{scb}{}
+
+\DeclareFontShape{OT1}{scb}{m}{n}{<->  scb}{}
+\DeclareFontShape{OT1}{scb}{m}{it}{<-> scbi}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{OT1}{scb}{m}{sl}{<-> scbi}{}
+
+\DeclareFontShape{OT1}{scb}{bx}{n}{<->  scbb}{}
+\DeclareFontShape{OT1}{scb}{bx}{it}{<-> scbbi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{scb}{bx}{sl}{<-> scbbi}{}
+
+\DeclareFontShape{OT1}{scb}{b}{n}{<->  scbb}{}
+\DeclareFontShape{OT1}{scb}{b}{it}{<-> scbbi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{scb}{b}{sl}{<-> scbbi}{}
+
+\endinput

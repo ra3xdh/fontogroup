@@ -1,0 +1,20 @@
+%%
+%% This is file `t2apar.fd'
+%% [ Parsek font family ]
+%%
+\ProvidesFile{t2apar.fd}
+
+\DeclareFontFamily{T2A}{par}{}
+
+\DeclareFontShape{T2A}{par}{m}{n}{<-> prs}{}
+
+\DeclareFontShape{T2A}{par}{m}{it}{<-> ssub * par/m/n}{}
+\DeclareFontShape{T2A}{par}{m}{sl}{<-> ssub * par/m/n}{}
+\DeclareFontShape{T2A}{par}{bx}{n}{<-> ssub * par/m/n}{} 
+\DeclareFontShape{T2A}{par}{bx}{it}{<-> ssub * par/m/n}{}
+\DeclareFontShape{T2A}{par}{bx}{sl}{<-> ssub * par/m/n}{}
+\DeclareFontShape{T2A}{par}{b}{n}{<->  ssub * par/m/n}{} 
+\DeclareFontShape{T2A}{par}{b}{it}{<-> ssub * par/m/n}{} 
+\DeclareFontShape{T2A}{par}{b}{sl}{<-> ssub * par/m/n}{} 
+
+\endinput

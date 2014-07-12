@@ -1,0 +1,27 @@
+%%
+%% This is file `ot1rty.fd'
+%% [ RType font family ]
+%%
+\ProvidesFile{ot1rty.fd}
+
+\DeclareFontFamily{OT1}{rty}{}
+
+\DeclareFontShape{OT1}{rty}{m}{n}{<->  rt}{}
+% Note: {m}{it} = {m}{n}
+\DeclareFontShape{OT1}{rty}{m}{it}{<-> rt}{}
+% Note: {m}{sl} = {m}{n}
+\DeclareFontShape{OT1}{rty}{m}{sl}{<-> rt}{}
+
+\DeclareFontShape{OT1}{rty}{bx}{n}{<->  rtb}{}
+% Note: {bx}{it} = {bx}{n}
+\DeclareFontShape{OT1}{rty}{bx}{it}{<-> rtb}{}
+% Note: {bx}{sl} = {bx}{n}
+\DeclareFontShape{OT1}{rty}{bx}{sl}{<-> rtb}{}
+
+\DeclareFontShape{OT1}{rty}{b}{n}{<->  rtb}{}
+% Note: {b}{it} = {bx}{n}
+\DeclareFontShape{OT1}{rty}{b}{it}{<-> rtb}{}
+% Note: {b}{sl} = {bx}{n}
+\DeclareFontShape{OT1}{rty}{b}{sl}{<-> rtb}{}
+
+\endinput

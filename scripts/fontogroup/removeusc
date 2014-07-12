@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Remove underscores from filenames
+for f in *; do
+    g=`expr "xxx$f" : 'xxx\(.*\)' | sed 's/_//g'`
+    mv "$f" "$g"
+done

@@ -1,0 +1,27 @@
+%%
+%% This is file `t2arty.fd'
+%% [ RType font family ]
+%%
+\ProvidesFile{t2arty.fd}
+
+\DeclareFontFamily{T2A}{rty}{}
+
+\DeclareFontShape{T2A}{rty}{m}{n}{<->  rt}{}
+% Note: {m}{it} = {m}{n}
+\DeclareFontShape{T2A}{rty}{m}{it}{<-> rt}{}
+% Note: {m}{sl} = {m}{n}
+\DeclareFontShape{T2A}{rty}{m}{sl}{<-> rt}{}
+
+\DeclareFontShape{T2A}{rty}{bx}{n}{<->  rtb}{}
+% Note: {bx}{it} = {bx}{n}
+\DeclareFontShape{T2A}{rty}{bx}{it}{<-> rtb}{}
+% Note: {bx}{sl} = {bx}{n}
+\DeclareFontShape{T2A}{rty}{bx}{sl}{<-> rtb}{}
+
+\DeclareFontShape{T2A}{rty}{b}{n}{<->  rtb}{}
+% Note: {b}{it} = {bx}{n}
+\DeclareFontShape{T2A}{rty}{b}{it}{<-> rtb}{}
+% Note: {b}{sl} = {bx}{n}
+\DeclareFontShape{T2A}{rty}{b}{sl}{<-> rtb}{}
+
+\endinput

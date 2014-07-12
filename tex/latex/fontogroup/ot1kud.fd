@@ -1,0 +1,24 @@
+%%
+%% This is file `ot1kud.fd'
+%% [ Kudrjashov font family ]
+%%
+\ProvidesFile{ot1kud.fd}
+
+\DeclareFontFamily{OT1}{kud}{}
+
+\DeclareFontShape{OT1}{kud}{m}{n}{<->  ku}{}
+\DeclareFontShape{OT1}{kud}{m}{it}{<-> kui}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{OT1}{kud}{m}{sl}{<-> kui}{}
+
+\DeclareFontShape{OT1}{kud}{bx}{n}{<->  kub}{}
+\DeclareFontShape{OT1}{kud}{bx}{it}{<-> kubi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{kud}{bx}{sl}{<-> kubi}{}
+
+\DeclareFontShape{OT1}{kud}{b}{n}{<->  kub}{}
+\DeclareFontShape{OT1}{kud}{b}{it}{<-> kubi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{kud}{b}{sl}{<-> kubi}{}
+
+\endinput

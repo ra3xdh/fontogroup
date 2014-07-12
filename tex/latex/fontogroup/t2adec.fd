@@ -1,0 +1,22 @@
+%%
+%% This is file `t2adec.fd'
+%% [ Decor font family ]
+%%
+\ProvidesFile{t2adec.fd}
+
+\DeclareFontFamily{T2A}{dec}{}
+
+\DeclareFontShape{T2A}{dec}{m}{n}{<-> de}{}
+
+\DeclareFontShape{T2A}{dec}{m}{it}{<-> ssub * dec/m/n}{}
+\DeclareFontShape{T2A}{dec}{m}{sl}{<-> ssub * dec/m/n}{}
+
+\DeclareFontShape{T2A}{dec}{bx}{n}{<-> deb}{} 
+
+\DeclareFontShape{T2A}{dec}{bx}{it}{<-> ssub * dec/bx/n}{}
+\DeclareFontShape{T2A}{dec}{bx}{sl}{<-> ssub * dec/bx/n}{}
+\DeclareFontShape{T2A}{dec}{b}{n}{<->  ssub * dec/bx/n}{} 
+\DeclareFontShape{T2A}{dec}{b}{it}{<-> ssub * dec/bx/n}{} 
+\DeclareFontShape{T2A}{dec}{b}{sl}{<-> ssub * dec/bx/n}{} 
+
+\endinput

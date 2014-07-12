@@ -1,0 +1,24 @@
+%%
+%% This is file `OT1fut.fd'
+%% [ Futuris font family ]
+%%
+\ProvidesFile{OT1fut.fd}
+
+\DeclareFontFamily{OT1}{fut}{}
+
+\DeclareFontShape{OT1}{fut}{m}{n}{<->  fu}{}
+\DeclareFontShape{OT1}{fut}{m}{it}{<-> fui}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{OT1}{fut}{m}{sl}{<-> fui}{}
+
+\DeclareFontShape{OT1}{fut}{bx}{n}{<->  fub}{}
+\DeclareFontShape{OT1}{fut}{bx}{it}{<-> fubi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{fut}{bx}{sl}{<-> fubi}{}
+
+\DeclareFontShape{OT1}{fut}{b}{n}{<->  fub}{}
+\DeclareFontShape{OT1}{fut}{b}{it}{<-> fubi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{fut}{b}{sl}{<-> fubi}{}
+
+\endinput

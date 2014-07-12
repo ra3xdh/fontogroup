@@ -1,0 +1,20 @@
+\ProvidesFile{T3bas.fd}
+    [TIPA font definitions for russian Baskerville]
+
+\DeclareFontFamily{T3}{bas}{}
+\DeclareFontShape{T3}{bas}{m}{n}{%
+  <-> xipa10
+}{}
+\DeclareFontShape{T3}{bas}{bx}{n}{%
+  <-> xipab10
+}{}
+\DeclareFontShape{T3}{bas}{b}{n}{%
+  <-> xipab10
+}{}
+\DeclareFontShape{T3}{bas}{m}{sl}{%
+  <-> xipasl10
+}{}
+\DeclareFontShape{T3}{bas}{m}{it}{%
+  <-> sub * bas/m/sl
+}{}
+\endinput

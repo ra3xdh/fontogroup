@@ -1,0 +1,20 @@
+%%
+%% This is file `t2aher.fd'
+%% [ Hermes font family ]
+%%
+\ProvidesFile{t2aher.fd}
+
+\DeclareFontFamily{T2A}{her}{}
+
+\DeclareFontShape{T2A}{her}{m}{n}{<-> he}{}
+
+\DeclareFontShape{T2A}{her}{m}{it}{<-> ssub * her/m/n}{}
+\DeclareFontShape{T2A}{her}{m}{sl}{<-> ssub * her/m/n}{}
+\DeclareFontShape{T2A}{her}{bx}{n}{<-> ssub * her/m/n}{} 
+\DeclareFontShape{T2A}{her}{bx}{it}{<-> ssub * her/m/n}{}
+\DeclareFontShape{T2A}{her}{bx}{sl}{<-> ssub * her/m/n}{}
+\DeclareFontShape{T2A}{her}{b}{n}{<->  ssub * her/m/n}{} 
+\DeclareFontShape{T2A}{her}{b}{it}{<-> ssub * her/m/n}{} 
+\DeclareFontShape{T2A}{her}{b}{sl}{<-> ssub * her/m/n}{} 
+
+\endinput

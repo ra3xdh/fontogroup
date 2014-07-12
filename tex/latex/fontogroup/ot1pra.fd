@@ -1,0 +1,24 @@
+%%
+%% This is file `OT1pra.fd'
+%% [ Pragmatica font family ]
+%%
+\ProvidesFile{OT1pra.fd}
+
+\DeclareFontFamily{OT1}{pra}{}
+
+\DeclareFontShape{OT1}{pra}{m}{n}{<->  pr}{}
+\DeclareFontShape{OT1}{pra}{m}{it}{<-> pri}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{OT1}{pra}{m}{sl}{<-> pri}{}
+
+\DeclareFontShape{OT1}{pra}{bx}{n}{<->  prb}{}
+\DeclareFontShape{OT1}{pra}{bx}{it}{<-> prbi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{pra}{bx}{sl}{<-> prbi}{}
+
+\DeclareFontShape{OT1}{pra}{b}{n}{<->  prb}{}
+\DeclareFontShape{OT1}{pra}{b}{it}{<-> prbi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{OT1}{pra}{b}{sl}{<-> prbi}{}
+
+\endinput

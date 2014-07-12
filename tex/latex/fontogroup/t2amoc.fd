@@ -1,0 +1,24 @@
+%%
+%% This is file `t2amoc.fd'
+%% [ MonoCondensed font family ]
+%%
+\ProvidesFile{t2amoc.fd}
+
+\DeclareFontFamily{T2A}{moc}{}
+
+\DeclareFontShape{T2A}{moc}{m}{n}{<->  moc}{}
+\DeclareFontShape{T2A}{moc}{m}{it}{<-> moci}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{T2A}{moc}{m}{sl}{<-> moci}{}
+
+\DeclareFontShape{T2A}{moc}{bx}{n}{<->  mocb}{}
+\DeclareFontShape{T2A}{moc}{bx}{it}{<-> mocbi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{moc}{bx}{sl}{<-> mocbi}{}
+
+\DeclareFontShape{T2A}{moc}{b}{n}{<->  mocb}{}
+\DeclareFontShape{T2A}{moc}{b}{it}{<-> mocbi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{moc}{b}{sl}{<-> mocbi}{}
+
+\endinput

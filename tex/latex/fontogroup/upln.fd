@@ -1,0 +1,4 @@
+\ProvidesFile{upln.fd}
+\DeclareFontFamily{U}{pln}{}
+\DeclareFontShape{U}{pln}{m}{n}{<->pl}{}
+\endinput

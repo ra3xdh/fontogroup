@@ -1,0 +1,20 @@
+%%
+%% This is file `t2acyg.fd'
+%% [ CyrillicGoth font family ]
+%%
+\ProvidesFile{t2acyg.fd}
+
+\DeclareFontFamily{T2A}{cyg}{}
+
+\DeclareFontShape{T2A}{cyg}{m}{n}{<-> cyg}{}
+
+\DeclareFontShape{T2A}{cyg}{m}{it}{<-> ssub * cyg/m/n}{}
+\DeclareFontShape{T2A}{cyg}{m}{sl}{<-> ssub * cyg/m/n}{}
+\DeclareFontShape{T2A}{cyg}{bx}{n}{<-> ssub * cyg/m/n}{} 
+\DeclareFontShape{T2A}{cyg}{bx}{it}{<-> ssub * cyg/m/n}{}
+\DeclareFontShape{T2A}{cyg}{bx}{sl}{<-> ssub * cyg/m/n}{}
+\DeclareFontShape{T2A}{cyg}{b}{n}{<->  ssub * cyg/m/n}{} 
+\DeclareFontShape{T2A}{cyg}{b}{it}{<-> ssub * cyg/m/n}{} 
+\DeclareFontShape{T2A}{cyg}{b}{sl}{<-> ssub * cyg/m/n}{} 
+
+\endinput

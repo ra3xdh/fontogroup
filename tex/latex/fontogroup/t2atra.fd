@@ -1,0 +1,20 @@
+%%
+%% This is file `t2atra.fd'
+%% [ Traktir font family ]
+%%
+\ProvidesFile{t2atra.fd}
+
+\DeclareFontFamily{T2A}{tra}{}
+
+\DeclareFontShape{T2A}{tra}{m}{n}{<-> tr}{}
+
+\DeclareFontShape{T2A}{tra}{m}{it}{<-> ssub * tra/m/n}{}
+\DeclareFontShape{T2A}{tra}{m}{sl}{<-> ssub * tra/m/n}{}
+\DeclareFontShape{T2A}{tra}{bx}{n}{<-> ssub * tra/m/n}{} 
+\DeclareFontShape{T2A}{tra}{bx}{it}{<-> ssub * tra/m/n}{}
+\DeclareFontShape{T2A}{tra}{bx}{sl}{<-> ssub * tra/m/n}{}
+\DeclareFontShape{T2A}{tra}{b}{n}{<->  ssub * tra/m/n}{} 
+\DeclareFontShape{T2A}{tra}{b}{it}{<-> ssub * tra/m/n}{} 
+\DeclareFontShape{T2A}{tra}{b}{sl}{<-> ssub * tra/m/n}{} 
+
+\endinput

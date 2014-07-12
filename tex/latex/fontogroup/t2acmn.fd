@@ -1,0 +1,24 @@
+%%
+%% This is file `t2acmn.fd'
+%% [ CommNew font family ]
+%%
+\ProvidesFile{t2acmn.fd}
+
+\DeclareFontFamily{T2A}{cmn}{}
+
+\DeclareFontShape{T2A}{cmn}{m}{n}{<->  conr}{}
+\DeclareFontShape{T2A}{cmn}{m}{it}{<-> coni}{}
+% Note: {m}{sl} = {m}{it}
+\DeclareFontShape{T2A}{cmn}{m}{sl}{<-> coni}{}
+
+\DeclareFontShape{T2A}{cmn}{bx}{n}{<->  conb}{}
+\DeclareFontShape{T2A}{cmn}{bx}{it}{<-> conbi}{}
+% Note: {bx}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{cmn}{bx}{sl}{<-> conbi}{}
+
+\DeclareFontShape{T2A}{cmn}{b}{n}{<->  conb}{}
+\DeclareFontShape{T2A}{cmn}{b}{it}{<-> conbi}{}
+% Note: {b}{sl} = {bx}{it}
+\DeclareFontShape{T2A}{cmn}{b}{sl}{<-> conbi}{}
+
+\endinput
